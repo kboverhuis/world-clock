@@ -1,10 +1,14 @@
 body {
-  background-color: #fffaf4;
+  background-size: cover;
+  background: rgb(243, 228, 221);
+  background-size: cover;
+  background-repeat: no-repeat;
   font-family: sans-serif;
 }
 
 h1 {
   text-align: center;
+  font-size: 42px;
 }
 
 h2 {
@@ -15,7 +19,7 @@ h2 {
 .container {
   max-width: 600px;
   margin: 60px auto;
-  background: #fff;
+  background: #f3f4f4;
   padding: 40px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 10px;
