@@ -1,14 +1,15 @@
 body {
   background-size: cover;
-  background: rgb(243, 228, 221);
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/135/150/original/Hourglass2.jpg?1721769956);
   background-size: cover;
   background-repeat: no-repeat;
-  font-family: sans-serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 h1 {
   text-align: center;
   font-size: 42px;
+  border-bottom: 24px;
 }
 
 h2 {
@@ -18,9 +19,9 @@ h2 {
 
 .container {
   max-width: 600px;
-  margin: 60px auto;
-  background: #fcfaf9;
-  padding: 40px;
+  margin: 40px auto;
+  background: #e0dede;
+  padding: 50px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 10px;
 }
@@ -35,7 +36,7 @@ select {
 .city {
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.4);
   margin: 10px 0;
   padding: 30px 0;
 }
@@ -61,5 +62,6 @@ select {
 footer {
   text-align: center;
   font-size: 18px;
-  color: rgba(0, 0, 0, 0.8);
+  color: rgba(0, 0, 0, 0.9);
+  line-height: 6px;
 }
